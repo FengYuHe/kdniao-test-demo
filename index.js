@@ -13,7 +13,11 @@ app.use(bodyParser.json());
 
 app.post('/kdniao', function(req, res) {
     console.log(req.body);
-    res.send(true);
+    res.json({
+        "EBusinessID": "1294238",
+        "UpdateTime": new Date(),
+        "Success": true
+    });
 });
 
 app.listen(4142, ()=> {
