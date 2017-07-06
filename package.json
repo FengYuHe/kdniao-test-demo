@@ -1,0 +1,28 @@
+{
+  "name": "kdniao-test-demo",
+  "version": "1.0.0",
+  "description": "kdniao api test demo",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/FengYuHe/kdniao-test-demo.git"
+  },
+  "keywords": [
+    "api",
+    "kdniao"
+  ],
+  "author": "fengyuhe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FengYuHe/kdniao-test-demo/issues"
+  },
+  "homepage": "https://github.com/FengYuHe/kdniao-test-demo#readme"
+}
