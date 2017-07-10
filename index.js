@@ -12,6 +12,10 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 
+app.get('/test', function(req, res) {
+    res.end(1);
+});
+
 app.post('/kdniao', function(req, res) {
     console.log('------------------------------------');
     console.log(new Date());
